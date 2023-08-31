@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2? Family= Poppins:wght@300;400;500;600;700 & Family= Saira:wght@700 & Display=swap');
+body{
+    font-family:  'Poppins'، sans-serif؛;
+}
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+}
+
+.container{
+    width: 50px;
+    min-width: 50px;
+    padding: 5%;
+    background-size: 50px;
+    background-position: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.search-bar {
+    margin: 1px;
+    border: 1px solid;
+    padding: 1px;
+    width: 1vh;
+}
+.search-bar input{
+    flex: 1;
+    outline: none;
+    padding: 24px;
+    font-size: 20px;
+    color: #120aa1;
+}
+::placeholder{
+    color: #000000;
+}
+.search-bar button img{
+    width: 15px;
+}
+.search-bar button{
+    border: 1px solid ;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: #06cf9d ;
+    cursor: pointer;
+}
+
+h1, h2 {
+    font-family: 'Saira', sans-serif;
+    padding-top: 15px;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* Header Start */
+header {
+    background-color: var(--bg-primary);
+    height: 10vh;
+}
+header .navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    width: 100%;
+    padding: 1.5rem 2rem;
+}
+header .navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+#home #logo {
+    color: var(--primary-color);
+    font-size: 24px;
+    font-weight: 600;
+
+}
+header .navbar nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .navbar nav ul a {
+    margin: 0 15px;
+    font-weight: 600;
+}
+/* Header End */
+.player {
+    border: 1px solid ;
+    background-color: #20c997;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-image: linear-gradient(rgba(0,8,51,0,9) ,rgba(0,8,51,0,9)) ,url(khalfia.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background:rgba(255,255,255,0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px;
+    font-size: 20px;
+    color: #cac7ff;
+}

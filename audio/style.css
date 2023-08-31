@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,);
+}
